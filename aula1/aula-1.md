@@ -13,11 +13,11 @@ Hoje, em 2024, o Python é a linguagem mais utilizada no mundo. Possui muitas bi
 
 ## Instalação
 
-Acessar a página: www.python.org 
-Passo a passo:  www.python.org.br/instalacao-windows 
+Acessar a página: <www.python.org> 
+Passo a passo:  <www.python.org.br/instalacao-windows> 
 
-Instalação da IDE Visual Studio Code: wwww.code.visualstudio.com/download
-Instalação da IDE PyCharm: www.jetbrains.com/pt-br/pycharm
+Instalação da IDE Visual Studio Code: <wwww.code.visualstudio.com/download>
+Instalação da IDE PyCharm: <www.jetbrains.com/pt-br/pycharm>
 
 #### Extensões do Visual Studio Code
 * Python
