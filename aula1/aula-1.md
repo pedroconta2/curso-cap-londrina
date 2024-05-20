@@ -1,25 +1,25 @@
-# Aula 1 - Instalação da Linguagem Python e Instrodução a variáveis
+# Aula 1 - Instalação da Linguagem Python e Introdução a variáveis
 
 ## Python
-A linguagem Python foi desenvolvida por Guido van Rossum no ano de 1991. Sendo muito utilizada para: 
+A linguagem Python foi desenvolvida por Guido van Rossum no ano de 1991. Sendo muito utilizada para:
 * Desenvolvimento web (server-side)
 * Desenvolvimento de software
 * Matemática, Ciência de Dados, Estatística
 * Machine Learning
 
-Python é uma linguagem que trabalha em diversos sistemas operacionais (Linux, Windows, Mac, etc..). Possui uma sintaxe simples, utilizando como base a Lingua inglesa e foi desenvolvido com o intuíto de fácil interpretação.
+Python é uma linguagem que trabalha em diversos sistemas operacionais (Linux, Windows, Mac, etc.). Possui uma sintaxe simples, utilizando como base a língua inglesa e foi desenvolvida com o intuito de fácil interpretação.
 
-Hoje, em 2024, o Phyton é a linguagem mais utilizada no mundo. Possuindo muitas bibliotecas e Frameworks para auxiliar no desenvolvimento.
+Hoje, em 2024, o Python é a linguagem mais utilizada no mundo. Possui muitas bibliotecas e frameworks para auxiliar no desenvolvimento.
 
 ## Instalação
 
-Acessar a página: <python.org> 
-Passo a passo: <python.org.br/instalacao-windows>
+Acessar a página: <www.python.org> 
+Passo a passo: <www.python.org.br/instalacao-windows>
 
-Instalação da IDE Visual Studio Code: <code.visualstudio.com/download>
-Instalação da IDE PyCharm: <jetbrains.com/pt-br/pycharm/>
+Instalação da IDE Visual Studio Code: <wwww.code.visualstudio.com/download>
+Instalação da IDE PyCharm: <www.jetbrains.com/pt-br/pycharm/>
 
-#### Extenções do Visual Studio Code
+#### Extensões do Visual Studio Code
 * Python
 * autoDocstring 
 * Python Extension Pack
@@ -27,33 +27,33 @@ Instalação da IDE PyCharm: <jetbrains.com/pt-br/pycharm/>
 
 ## Começando com Python
 
-Nosso primeiro codigo: Hello World!
+Nosso primeiro código: Hello World!
 ~~~python
 print("Hello World!!")
 ~~~ 
 
 #### Entendendo as variáveis
 * String: Cadeia de caracteres
-* Int: Numeros inteiros
-* Float: armazena valores reais ou flutuantes, que contém casas decimais. 
-* Double – parecido com o float mas é capaz de armazenar um número maior de casas decimais.
+* Int: Números inteiros
+* Float: Armazena valores reais ou flutuantes, que contêm casas decimais. 
+* Double: Parecido com o float, mas é capaz de armazenar um número maior de casas decimais.
 
 Criando uma variável do tipo Int:
 ~~~python
-x=5
+x = 5
 ~~~
 
 Criando uma variável do tipo String:
 ~~~python
-x= "DeMolay"
+x = "DeMolay"
 ~~~
 
 Criando uma variável do tipo Float:
 ~~~python
-x=3
+x = 3.0
 ~~~
 
-Realizando uma conta 
+Realizando uma conta:
 ~~~python
 x = 4
 y = 5
@@ -61,10 +61,17 @@ m = x + y
 print(m)
 ~~~
 
-Descobrindo o tipo da variável
+Descobrindo o tipo da variável:
 ~~~python
 x = 5
 y = "Cap. Londrina"
 print(type(x))
 print(type(y))
 ~~~ 
+
+Case-sensitive:
+~~~python 
+a = 4
+A = "Sally"
+# A will not overwrite a
+~~~
